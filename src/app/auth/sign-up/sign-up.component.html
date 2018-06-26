@@ -1,0 +1,9 @@
+<form [formGroup]="signUpForm" >
+  <input id="email" type="text" formControlName="email">
+  <br>
+  <input id="login" type="text" formControlName="login">
+  <br>
+  <input id="password" type="password" formControlName="password">
+</form>
+
+<button (click)="signUp()">Send</button>
